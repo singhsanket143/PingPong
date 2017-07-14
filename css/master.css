@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background: url(giphy.gif);
+  /*background-size: cover;*/
+}
+#left{
+  position: fixed;
+  background-color: red;
+  height :200px;
+  width: 30px;
+  border-radius: 50px;
+
+}
+#right{
+  position: fixed;
+  background-color: green;
+  height :200px;
+  width: 30px;
+  border-radius: 50px;
+
+}
+/*#inner{
+  height: 100px;
+  width: 100px;
+
+}*/
+#ball{
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: Yellow;
+}
