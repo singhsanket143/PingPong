@@ -6,11 +6,11 @@ body{
   height: 100vh;
   width: 100vw;
   background: url(giphy.gif);
-  /*background-size: cover;*/
+  background-size: cover;
 }
 #left{
   position: fixed;
-  background-color: red;
+  background-color: yellow;
   height :200px;
   width: 30px;
   border-radius: 100px;
@@ -18,7 +18,7 @@ body{
 }
 #right{
   position: fixed;
-  background-color: green;
+  background-color: red;
   height :200px;
   width: 30px;
   border-radius: 100px;
@@ -34,5 +34,5 @@ body{
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  background-color: Yellow;
+  background-color: green;
 }
